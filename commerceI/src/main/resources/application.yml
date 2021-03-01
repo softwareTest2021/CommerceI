@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: abcd0123
+    username: root
+    url: jdbc:mysql://localhost:3306/commerce?serverTimezone=UTC
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
