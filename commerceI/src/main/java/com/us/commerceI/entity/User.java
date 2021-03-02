@@ -1,5 +1,6 @@
 package com.us.commerceI.entity;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -36,9 +37,9 @@ public class User implements Serializable {
 
     @TableField("headUrl")
     private String headUrl;
-
+    @TableField(fill = FieldFill.INSERT)
     private Date gmtCreated;
-
+    @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date gmtModified;
 
 
