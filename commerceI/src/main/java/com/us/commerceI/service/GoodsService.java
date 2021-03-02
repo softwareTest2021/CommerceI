@@ -2,7 +2,7 @@ package com.us.commerceI.service;
 
 import com.us.commerceI.entity.Goods;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.us.commerceI.entity.GoodsDetail;
+import com.us.commerceI.dto.data.GoodsDetail;
 
 /**
  * <p>

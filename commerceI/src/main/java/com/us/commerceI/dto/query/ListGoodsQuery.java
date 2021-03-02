@@ -1,4 +1,4 @@
-package com.us.commerceI.entity;
+package com.us.commerceI.dto.query;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

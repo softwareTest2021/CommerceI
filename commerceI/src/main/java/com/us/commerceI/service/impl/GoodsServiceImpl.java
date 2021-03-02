@@ -1,10 +1,9 @@
 package com.us.commerceI.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.us.commerceI.entity.GoodImg;
 import com.us.commerceI.entity.Goods;
-import com.us.commerceI.entity.GoodsDetail;
+import com.us.commerceI.dto.data.GoodsDetail;
 import com.us.commerceI.mapper.GoodImgMapper;
 import com.us.commerceI.mapper.GoodsMapper;
 import com.us.commerceI.service.GoodsService;

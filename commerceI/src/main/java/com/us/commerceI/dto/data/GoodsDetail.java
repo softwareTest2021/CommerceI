@@ -1,5 +1,7 @@
-package com.us.commerceI.entity;
+package com.us.commerceI.dto.data;
 
+import com.us.commerceI.entity.GoodImg;
+import com.us.commerceI.entity.Goods;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,7 +15,7 @@ import java.util.List;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class GoodsDetail extends Goods{
+public class GoodsDetail extends Goods {
     @ApiModelProperty("物品的详细图片地址")
     private List<GoodImg> detailImages;
 }
